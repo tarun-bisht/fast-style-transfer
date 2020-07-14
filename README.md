@@ -2,9 +2,9 @@
 >> Convert photos and videos to artwork
 
 <div align='center'>
-  <img src='images/data/images/style.jpg' height="225px">
-  <img src='images/data/images/content.jpg' height="225px">
-  <img src='images/outputs/styled.jpg' height="346px">
+  <img src='data/images/style.jpg' height="225px">
+  <img src='data/images/content.jpg' height="225px">
+  <img src='outputs/styled.jpg' height="346px">
 </div>
 
 Stylize any photo or video in style of famous paintings using Neural Style Transfer.
