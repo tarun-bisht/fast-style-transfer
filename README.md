@@ -1,10 +1,11 @@
 # Fast Style Transfer
+
 >> Convert photos and videos to artwork
 
 <div align='center'>
-  <img src='data/images/style.jpg' height="225px">
-  <img src='data/images/content.jpg' height="225px">
-  <img src='outputs/styled.jpg' height="346px">
+  <img src='data/images/style.jpg' height="346px">
+  <img src='data/images/content.jpg' height="346px">
+  <img src='output/styled.jpg' height="512px">
 </div>
 
 Stylize any photo or video in style of famous paintings using Neural Style Transfer.
@@ -29,14 +30,22 @@ Stylize any photo or video in style of famous paintings using Neural Style Trans
 - `pillow`
 - `opencv-python`
 
->> This implementation is tested with tensorflow-gpu 2.0, tensorflow-gpu 2.2 in Windows 10 and Linux
+>> This implementation is tested with tensorflow-gpu 2.0 and tensorflow-gpu 2.2 in Windows 10 and Linux
 
 ### Get Started
-- Install Python3 and install above packages via pip.
-- Download some pretrained weights trained on different paintings to start playing without need to train network
+- Install Python3 or anaconda and install them. For detailed steps follow installation guide for [Python3](https://realpython.com/installing-python/) and [Anaconda](https://docs.anaconda.com/anaconda/install/)
+- Install above packages via pip or conda. For detailed steps follow guide for [pip](https://docs.python.org/3/installing/index.html) and [conda](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/)
+- Download some [Download Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0)trained of different paintings to start playing without need to train network
 - copy and unzip checkpoints inside `data/models`
 - run scripts for image and video stylization
-##### [Download Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0)
+#### Additional guides:
+If stuck on Get Started Step 1 and Step 2 follow these additional resources
+- [Python Installation](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list)
+- [pip and usage](https://www.youtube.com/watch?v=U2ZN104hIcc)
+- [Anaconda installation and using conda](https://www.youtube.com/watch?v=YJC6ldI3hWk)
+
+
+### [Download Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0)
 
 ### How to use
 - Input Parameters for a script can be set by using config file or using command line arguments.
