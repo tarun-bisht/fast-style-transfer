@@ -1,6 +1,6 @@
 # Fast Style Transfer
 
->> Convert photos and videos to artwork
+> Convert photos and videos to artwork
 
 <div align='center'>
   <img src='data/images/style.jpg' height="346px">
@@ -30,7 +30,7 @@ Stylize any photo or video in style of famous paintings using Neural Style Trans
 - `pillow`
 - `opencv-python`
 
->> This implementation is tested with tensorflow-gpu 2.0 and tensorflow-gpu 2.2 in Windows 10 and Linux
+> This implementation is tested with tensorflow-gpu 2.0 and tensorflow-gpu 2.2 in Windows 10 and Linux
 
 ### Get Started
 - Install Python3 or anaconda and install them. For detailed steps follow installation guide for [Python3](https://realpython.com/installing-python/) and [Anaconda](https://docs.anaconda.com/anaconda/install/)
