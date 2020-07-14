@@ -35,7 +35,7 @@ Stylize any photo or video in style of famous paintings using Neural Style Trans
 ### Get Started
 - Install Python3 or anaconda and install them. For detailed steps follow installation guide for [Python3](https://realpython.com/installing-python/) and [Anaconda](https://docs.anaconda.com/anaconda/install/)
 - Install above packages via pip or conda. For detailed steps follow guide for [pip](https://docs.python.org/3/installing/index.html) and [conda](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/)
-- Download some [Download Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0)trained of different paintings to start playing without need to train network
+- Download some [Download Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0) trained of different paintings to start playing without need to train network
 - copy and unzip checkpoints inside `data/models`
 - run scripts for image and video stylization
 #### Additional guides:
@@ -73,8 +73,12 @@ python style_multi_images.py --checkpoint data/models/udnie/model_checkpoint.ckp
 ```
 
 ## Video Stylization
-[![Pithoragarh style transfer](output/video.gif)](http://www.youtube.com/watch?v=GrS4rWifdko)
-Use style_video.py to transfer style into a video.To view all the possible input parameters view its `configs/video_config.json` these parameters can be passed as command line arguments as well.
+<div align='center'>
+  <a href="http://www.youtube.com/watch?v=GrS4rWifdko"><img src='output/video.gif' alt="Pithoragarh style transfer"></a>
+</div>
+
+Use `style_video.py` to transfer style into a video.To view all the possible input parameters view its `configs/video_config.json` these parameters can be passed as command line arguments as well.
+
 ```bash
 python style_video.py --config=configs/video_config.json
 ```
@@ -83,7 +87,8 @@ python style_video.py --config=configs/video_config.json
 <div align='center'>
   <img src='output/webcam.gif'>
 </div>
-Use style_webcam.py to transfer style into live webcam recording.To view all the possible input parameters view its `configs/webcam_config.json` these parameters can be passed as command line arguments as well.
+
+Use `style_webcam.py` to transfer style into live webcam recording.To view all the possible input parameters view its `configs/webcam_config.json` these parameters can be passed as command line arguments as well.
 
 ```bash
 python style_webcam.py --config=configs/webcam_config.json
@@ -105,22 +110,22 @@ python train.py --config=configs/train_config.json
 
 ### Stylized Results
 <div align='center'>
-  <img src='output/js_candy.jpg' height="225px">
+  <img src='output/js_candy.jpg' height="346px">
 </div>
 <div align='center'>
-  <img src='output/styled_candy.jpg' height="225px">
+  <img src='output/kido.jpg' height="346px">
 </div>
 <div align='center'>
-  <img src='output/kido.jpg' height="225px">
+  <img src='output/penguin.jpg' height="346px">
 </div>
 <div align='center'>
-  <img src='output/penguin.jpg' height="225px">
+  <img src='output/styled_candy.jpg' height="256px">
 </div>
 <div align='center'>
-  <img src='output/heather-gill-7Frxnyv7Ntg-unsplash-udine.jpg' height="225px">
+  <img src='output/heather-gill-7Frxnyv7Ntg-unsplash-udine.jpg' height="256px">
 </div>
 <div align='center'>
-  <img src='images/marc-olivier-jodoin-0TB3AiOu2g4-unsplash-starry.jpg' height="225px">
+  <img src='output/marc-olivier-jodoin-0TB3AiOu2g4-unsplash-starry.jpg' height="256px">
 </div>
 
 ## Gatys Style Transfer
