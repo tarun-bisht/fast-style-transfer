@@ -129,6 +129,7 @@ python train.py --config=configs/train_config.json
   <a href="http://www.youtube.com/watch?v=weVfBfWVuZw"><img src='http://img.youtube.com/vi/weVfBfWVuZw/0.jpg' alt="Gatys style transfer"></a>
 </div>
 We can also perform gatys style transfer by using `slow_style_transfer.py` script. You can use it for styling images but it takes more time to generate an image. To view all the possible input parameters view `configs/slow_style_config.json` these parameters can be passed as command line arguments as well.
+
 ```bash
 python slow_style_transfer.py --config=configs/slow_style_config.json
 ```
