@@ -109,13 +109,13 @@ python train.py --config=configs/train_config.json
 - If want to train style images in google colab a notebook `Fast_Style_Transfer_Colab.ipynb` is provided. Open it in colab and train. For saving model checkpoints google drive is used. You can trust this notebook but I do not take any responsibility for data loss from google drive. Before running check the model save checkpoints path as it can override existing data with same name.
 
 ### Stylized Results
-<div align='center'>
+<div>
   <img src='output/js_candy.jpg' height="346px">
 </div>
-<div align='center'>
+<div>
   <img src='output/kido.jpg' height="346px">
 </div>
-<div align='center'>
+<div>
   <img src='output/penguin.jpg' height="346px">
 </div>
 <div>
