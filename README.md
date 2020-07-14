@@ -135,7 +135,7 @@ python slow_style_transfer.py --config=configs/slow_style_config.json
 ```
 
 ## Contribution
-Contributions are highly welcome that will improve quality of project. Folks with high end machines are welcome to train new styles and contribute. For contribution [Contact me](www.tarunbisht.com/contact)
+Contributions are highly welcome that will improve quality of project. Folks with high end machines are welcome to train new styles and contribute. For style models contribution [Contact me](www.tarunbisht.com/contact)
 
 ## License
 Copyright (c) 2020 Tarun Bisht. Free for personal or research use. [Contact me](https://tarunbisht.com/contact) for commercial use.
