@@ -1,0 +1,21 @@
+{
+	"image":"data/images/content.jpg",
+	"style":"data/images/style.jpg",
+    "image_size":[224,224],
+    "output":"output/slow_style.jpg",
+    "learning_rate":1e-3,
+    "epochs":10,
+    "content_layers_weights":[1],
+    "style_layers_weights":[1,1,1,1,1],
+    "content_weight":1e4,
+    "style_weight":1e-2,
+    "total_variation_weight":0.0004,
+    "content_layers":["block4_conv2"],
+    "style_layers":[
+            "block1_conv1",
+            "block2_conv1",
+            "block3_conv1",
+            "block4_conv1",
+            "block5_conv1"
+        ]
+}

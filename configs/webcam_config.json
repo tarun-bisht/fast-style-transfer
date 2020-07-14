@@ -1,0 +1,7 @@
+{
+	"checkpoint":"data/models/scream1/model_checkpoint.ckpt",
+	"format":"XVID",
+    "output":"output/webcam.avi",
+    "camera":0,
+    "size":[640,480]
+}

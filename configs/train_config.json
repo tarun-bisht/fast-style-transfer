@@ -1,0 +1,22 @@
+{
+    "checkpoint":"data/models/udnie",
+    "style_image":"data/images/udnie.jpg",
+    "train_path":"data/train/train2014",
+    "input_shape":[256,256],
+    "batch_size":4,
+    "learning_rate":1e-3,
+    "epochs":2,
+    "content_layers_weights":[1],
+    "style_layers_weights":[1,1,1,1,1],
+    "content_weight":1e1,
+    "style_weight":1e2,
+    "total_variation_weight":0.004,
+    "content_layers":["block4_conv2"],
+    "style_layers":[
+            "block1_conv1",
+            "block2_conv1",
+            "block3_conv1",
+            "block4_conv1",
+            "block5_conv1"
+        ]
+}

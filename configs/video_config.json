@@ -1,0 +1,7 @@
+{
+	"checkpoint":"data/models/udnie/model_checkpoint.ckpt",
+	"format":"XVID",
+    "video":"C:/Users/Username/Desktop/VID_20200712_131511.mp4",
+    "output":"output/styled_video.avi",
+    "size":[1280,720]
+}

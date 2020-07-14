@@ -1,0 +1,6 @@
+{
+	"checkpoint":"data/models/udnie/model_checkpoint.ckpt",
+	"path":"data/images/",
+    "image_size":[1366,768],
+    "output":"output"
+}
