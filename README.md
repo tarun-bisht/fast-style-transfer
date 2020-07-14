@@ -2,7 +2,7 @@
 
 > Convert photos and videos to artwork
 
-<div align='center'>
+<div>
   <img src='data/images/style.jpg' height="346px">
   <img src='data/images/content.jpg' height="346px">
   <img src='output/styled.jpg' height="512px">
@@ -73,7 +73,7 @@ python style_multi_images.py --checkpoint data/models/udnie/model_checkpoint.ckp
 ```
 
 ## Video Stylization
-<div align='center'>
+<div>
   <a href="http://www.youtube.com/watch?v=GrS4rWifdko"><img src='output/video.gif' alt="Pithoragarh style transfer"></a>
 </div>
 
@@ -84,8 +84,8 @@ python style_video.py --config=configs/video_config.json
 ```
 
 ## Webcam Stylization
-<div align='center'>
-  <img src='output/webcam.gif'>
+<div>
+  <img src='output/webcam.gif' alt="webcam output">
 </div>
 
 Use `style_webcam.py` to transfer style into live webcam recording.To view all the possible input parameters view its `configs/webcam_config.json` these parameters can be passed as command line arguments as well.
@@ -118,18 +118,16 @@ python train.py --config=configs/train_config.json
 <div align='center'>
   <img src='output/penguin.jpg' height="346px">
 </div>
-<div align='center'>
-  <img src='output/styled_candy.jpg' height="256px">
-</div>
-<div align='center'>
-  <img src='output/heather-gill-7Frxnyv7Ntg-unsplash-udine.jpg' height="256px">
-</div>
-<div align='center'>
-  <img src='output/marc-olivier-jodoin-0TB3AiOu2g4-unsplash-starry.jpg' height="256px">
+<div>
+  <img src='output/styled_candy.jpg' height="346px">
+  <img src='output/heather-gill-7Frxnyv7Ntg-unsplash-udine.jpg' height="346px">
+  <img src='output/marc-olivier-jodoin-0TB3AiOu2g4-unsplash-starry.jpg' height="346px">
 </div>
 
 ## Gatys Style Transfer
-[![Gatys style transfer](http://img.youtube.com/vi/weVfBfWVuZw/0.jpg)](http://www.youtube.com/watch?v=weVfBfWVuZw)
+<div>
+  <a href="http://www.youtube.com/watch?v=weVfBfWVuZw"><img src='http://img.youtube.com/vi/weVfBfWVuZw/0.jpg' alt="Gatys style transfer"></a>
+</div>
 We can also perform gatys style transfer by using `slow_style_transfer.py` script. You can use it for styling images but it takes more time to generate an image. To view all the possible input parameters view `configs/slow_style_config.json` these parameters can be passed as command line arguments as well.
 ```bash
 python slow_style_transfer.py --config=configs/slow_style_config.json
