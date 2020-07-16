@@ -20,8 +20,8 @@ Stylize any photo or video in style of famous paintings using Neural Style Trans
 #### System
 - For inferencing or generating images any system will work. But size of output image is limited as per system. Large images needs more momory to process. GPU is not must for inferencing but having it will be advantageous.
 - For training GPU is must with tensorflow-gpu and cuda installed.
-- If there is no access to GPU but want to train there is a notebook `Fast_Style_Transfer_Colab.ipynb` open it in colab and train. For saving model checkpoints google drive is used. You can trust this notebook but I do not take any responsibility for data loss from google drive. Before running check the model save checkpoints path as it can override existing data with same name.
-- Training takes around 8 hours in colab.
+- If there is no access to GPU at local but want to train new style, there is a notebook `Fast_Style_Transfer_Colab.ipynb` open it in colab and train. For saving model checkpoints google drive is used. You can trust this notebook but I do not take any responsibility for data loss from google drive. Before running check the model save checkpoints path as it can override existing data with same name.
+- Training takes around 6 hours in colab for 2 epochs.
 
 #### Packages
 - `tensorflow-gpu>=2.0` or `tensorflow>=2.0`
