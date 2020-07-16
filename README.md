@@ -35,7 +35,7 @@ Stylize any photo or video in style of famous paintings using Neural Style Trans
 ### Get Started
 - Install Python3 or anaconda and install them. For detailed steps follow installation guide for [Python3](https://realpython.com/installing-python/) and [Anaconda](https://docs.anaconda.com/anaconda/install/)
 - Install above packages via pip or conda. For detailed steps follow guide for [pip](https://docs.python.org/3/installing/index.html) and [conda](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/)
-- Download some [Download Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0) trained of different paintings to start playing without need to train network
+- Download some [Pretrained Models](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0) trained on different paintings styles to start playing without need to train network
 - copy and unzip checkpoints inside `data/models`
 - run scripts for image and video stylization
 #### Additional guides:
