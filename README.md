@@ -140,7 +140,7 @@ python train.py --config=configs/train_config.json
 
 ### Gatys Style Transfer (optimization based stylization)
 We can also perform gatys style transfer by using `slow_style_transfer.py` script. You can use it for styling images but it takes more time to generate an image. To view all the possible input parameters view `configs/slow_style_config.json` these parameters can be passed as command line arguments as well.
-The benefit is we can create different stylized images using different style images without needing to train a network for that particular style, but it takes time to create a single stylized images but it is prefered to test different styles and check which one is working great before training a network for that style. Also this method is not suitable for video stylization.
+The benefit of this method is that we can create different stylized images using different style images without training a network for that particular style, but it takes some time to create a single stylized image. This method is prefered to test different styles and check which one is working great before training a network for that style.
 
 ```bash
 python slow_style_transfer.py --config=configs/slow_style_config.json
