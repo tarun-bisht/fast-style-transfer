@@ -71,7 +71,7 @@ pip install -r requirements.txt
 - copy and unzip checkpoints inside `data/models`
 
 ### Additional guides:
-If stuck on in installation part follow these additional resources
+If get stuck in installation part follow these additional resources
 - [Python Installation](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list)
 - [pip and usage](https://www.youtube.com/watch?v=U2ZN104hIcc)
 - [Anaconda installation and using conda](https://www.youtube.com/watch?v=YJC6ldI3hWk)
