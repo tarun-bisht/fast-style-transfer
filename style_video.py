@@ -56,7 +56,7 @@ while True:
     styled_image=inference(style_model,img_in)
     if out:
         out.write(styled_image)
-    # cv2.imshow('output', styled_image)
+    cv2.imshow('output', styled_image)
     if cv2.waitKey(1) == ord('q'):
         break
 cv2.destroyAllWindows()

@@ -1,11 +1,15 @@
 *.tar
 *.zip
 /data/models/*
+!/data/models/.gitkeep
 /data/images/*
 !/data/images/content.jpg
 !/data/images/style.jpg
+/data/videos/*
+!/data/videos/test.mp4
 /data/train/*
-/outputs/*.avi
+/output/*.avi
+!/output/styled_video.avi
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python

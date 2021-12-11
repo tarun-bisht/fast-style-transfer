@@ -89,7 +89,7 @@ for epoch in range(1,epochs+1):
 				args["total_variation_weight"],
 				args["content_layers_weights"],args["style_layers_weights"])
 	current_image=array_to_img(image.numpy()*255.0)
-	current_image.save(f'{args["output"]}.jpg')
+	current_image.save(f'{args["output"]}')
 	print(f" loss: {batch_loss.numpy()}")
 
 

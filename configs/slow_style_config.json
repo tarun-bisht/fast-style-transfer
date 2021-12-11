@@ -7,8 +7,8 @@
     "epochs":10,
     "content_layers_weights":[1],
     "style_layers_weights":[1,1,1,1,1],
-    "content_weight":1e4,
-    "style_weight":1e-2,
+    "content_weight":1e-2,
+    "style_weight":1e2,
     "total_variation_weight":0.0004,
     "content_layers":["block4_conv2"],
     "style_layers":[

@@ -1,5 +1,5 @@
 {
-	"checkpoint":"data/models/scream1/model_checkpoint.ckpt",
+	"checkpoint":"data/models/udnie/model_checkpoint.ckpt",
 	"format":"XVID",
     "output":"output/webcam.avi",
     "camera":0,
