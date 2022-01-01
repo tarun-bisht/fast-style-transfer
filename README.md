@@ -1,4 +1,5 @@
-# Fast Style Transfer
+# Fast Style Transfer &middot; [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tarun-bisht/fast-style-transfer/blob/master/notebooks/Fast_Style_Transfer_Colab.ipynb) [![download pretrained models](https://img.shields.io/badge/download-pretrained%20models-important)](https://www.dropbox.com/sh/dkmy123bxk7f1s0/AAA-opMlprMhssPJCR1I1k4Qa?dl=0) ![python version](https://img.shields.io/badge/Python-%3E3.6-orange) ![tensorflow version](https://img.shields.io/badge/TensorFlow-%3E2.2-blueviolet) ![Windows](https://svgshare.com/i/ZhY.svg) ![Linux](https://svgshare.com/i/Zhy.svg) ![macOS](https://svgshare.com/i/ZjP.svg)
+
 
 > Convert any photos and videos into an artwork
 
